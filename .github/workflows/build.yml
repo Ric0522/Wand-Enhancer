@@ -47,6 +47,11 @@ jobs:
           path: WandEnhancer/bin/Release/WandEnhancer.exe
           if-no-files-found: error
 
+          Co-autored-by: Ric Gen
+
+          
+  
+
       # The published artifact is always the offline build; this only proves the
       # opt-in variant still compiles and passes its checks on every push.
       - name: Verify opt-in update notifications build
